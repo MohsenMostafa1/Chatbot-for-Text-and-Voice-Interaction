@@ -4,6 +4,7 @@ import os
 import playsound
 
 # Load the BlenderBot model and tokenizer
+# you can use large model like model_name = "facebook/blenderbot-3B" 
 model_name = "facebook/blenderbot-400M-distill"
 tokenizer = BlenderbotTokenizer.from_pretrained(model_name)
 model = BlenderbotForConditionalGeneration.from_pretrained(model_name)
