@@ -15,6 +15,11 @@ pip install pygame
 
 pip install gtts
 
+pip install speechrecognition
+
+pip install pyaudio
+
+
 ## Explaination for appChat_Text_To_Voice
 
 transformers: This library is used to load pre-trained models and tokenizers for natural language processing tasks. 
