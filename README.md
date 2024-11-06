@@ -6,4 +6,8 @@
         <img src="https://floatbot.ai/img/Voicebot-Vs-Chatbot.png" alt ="Audio Art" style='width:800px;height:500px;'>
         <figcaption>
 
-
+### installing necessary Libraries 
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+pip install playsound==1.2.2
+pip install pygame
+pip install gtts
