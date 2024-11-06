@@ -8,8 +8,11 @@
 
 ### installing necessary Libraries 
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+
 pip install playsound==1.2.2
+
 pip install pygame
+
 pip install gtts
 
 ## Explaination for appChat_Text_To_Voice
